@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    font-family: cursive;
+    border: 2px;
+    border-color: beige;
+}
+
+.nv1 {
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    left: 30px;    
+    -webkit-text-fill-color: rgb(252, 252, 252);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.brand img {
+    width: 64px;
+}
+
+.nv2 {
+    position: absolute;
+    top: 0px;
+    right: 10px;    
+}
+
+.nv2 ul {
+    list-style-type: none;
+    padding: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    height: 80px;
+    background-color: rgb(28, 32, 33);
+    -webkit-text-fill-color: rgb(252, 252, 252);
+}
+
+.nv2 ul li {
+    display: flex;
+    align-items: center;
+}
+
+.nv2 ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 0px 10px;
+    margin-left: 15px;
+}
+
+.nv2 ul li:hover {
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.contain {
+    min-height: 60vh;
+    background-color: rgb(32, 33, 33);
+    color: white;
+    font-family: cursive;
+    display: flex;
+    margin: 26px auto;
+    width: 90%;
+    border-radius: 22px;
+    padding: 24px;
+    background-image: url('logo&image/bg-kishore1.jpg');
+    background-size: cover;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: rgb(50, 56, 56);
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 22px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+
+#myProgress {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemcontain {
+    margin-top: 40px;
+    margin-right: 0px;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: rgb(245, 217, 36);
+    width: 70%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;    
+}
+.songItem:hover {
+    background-color: grey;
+}
+.songItem img {
+    width: 40px;
+    margin: 0 20px;
+    border-radius: 30px;
+}
+.timestamp {
+    margin: 0 20px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
